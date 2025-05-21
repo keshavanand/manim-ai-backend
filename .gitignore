@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env.* 
+myenc/
+
+# Flask-related
+instance/
+*.db
+
+# Pytest / coverage / test cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Manim temporary output
+media/
+temp_storage/
+*.log
+*.mp4
+*.mov
+*.png
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
